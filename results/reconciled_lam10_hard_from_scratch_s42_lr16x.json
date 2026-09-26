@@ -1,0 +1,13 @@
+{
+  "condition": "hard_from_scratch",
+  "seed": 42,
+  "model_params": 18123008,
+  "steps": 50000,
+  "learned_nll": 4.538249,
+  "learned_ppl": 93.53,
+  "random_nll": 4.971521,
+  "random_ppl": 144.25,
+  "delta_router": 0.433272,
+  "lambda_rca": 0.0,
+  "target_sparsity": 0.875
+}
