@@ -1,0 +1,20 @@
+{
+  "method": "corpus_transfer",
+  "condition": "contemporary_closedloop_hard",
+  "corpus": "fineweb-edu",
+  "model_size": "100m",
+  "seed": 123,
+  "lambda_rca": 1.0,
+  "total_tokens": 1999962112,
+  "total_steps": 30517,
+  "model_params": 131087616,
+  "native_nll": 3.640625,
+  "native_ppl": 38.12,
+  "closed_loop_hard_nll": 3.662656,
+  "G_CL": 0.022031,
+  "gate_utility": 3.038406,
+  "random_hard_nll_mean": 6.701063,
+  "random_hard_nll_std": 0.005653,
+  "training_elapsed_seconds": 121672.8,
+  "training_gpu_hours": 33.8
+}

@@ -1,0 +1,18 @@
+{
+  "method": "ssa_style_alignment_adapted_to_learned_token_routing",
+  "protocol": "exact_upstream_31m",
+  "seed": 42,
+  "alignment_weight": 1.0,
+  "stream_probability_soft": 0.5,
+  "max_steps": 50000,
+  "native_nll": 3.8697722115691557,
+  "closed_loop_hard_nll": 3.8727215966863087,
+  "closed_loop_excess_nll": 0.002949385117152925,
+  "random_hard_nll": 4.702048866996868,
+  "local_window_nll": 4.45653850427397,
+  "gate_utility": 0.829327270310559,
+  "elapsed_seconds": 3581.8593986034393,
+  "checkpoint": "ckpts_ssa_style/ssa_style_aw1_s42.pt",
+  "reconciled_provenance": "SSA-style has no lambda_rca mixing; this is its natural-default config (alignment_weight=1.0, hard_probability=0.5, objective_clhr_weight unset), selected via the existing tune-then-heldout scripts (scripts/run_ssa_dev_queue.sh + scripts/run_ssa_heldout_queue.sh).",
+  "reconciled_source": "results/ssa_style/ssa_style_aw1_s42.json"
+}

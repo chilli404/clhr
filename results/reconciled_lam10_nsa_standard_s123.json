@@ -1,0 +1,12 @@
+{
+  "native_nll": 3.8460951805114747,
+  "closed_loop_nll": 5.046968841552735,
+  "G_CL": 1.20087366104126,
+  "condition": "standard",
+  "seed": 123,
+  "model_size": "31m",
+  "steps_completed": 50000,
+  "parameters": 19423816,
+  "lambda_rca": 0.0,
+  "_provenance": "RECOVERED from checkpoint /workspace/ckpts_nsa/final.pt after the original run's --output write crashed on a missing parent directory (bug fixed in sparse_attention_nsa.py). Eval is deterministic from the checkpoint, no retraining needed -- elapsed_s from the original crashed run is lost."
+}

@@ -1,0 +1,20 @@
+{
+  "native_nll": 3.8481933236122132,
+  "native_ppl": 46.90823862223127,
+  "open_loop_nll": 3.8481933236122132,
+  "closed_loop_nll": 3.8481933236122132,
+  "G_CL": 0.0,
+  "G_OL": 0.0,
+  "random_hard_nll_mean": 3.9181370019912714,
+  "random_hard_nll_std": 0.0004096729996707094,
+  "gate_utility": 0.0178512589895431,
+  "condition": "standard",
+  "seed": 42,
+  "total_steps": 50000,
+  "model_params": 17598720,
+  "lambda_rca": 0.0,
+  "elapsed_sec": 3697.0696687698364,
+  "block_size": 64,
+  "top_k_blocks": 2,
+  "_provenance": "RECONSTRUCTED from conversation transcript (verbatim cat output read earlier this session) -- source instance terminated before this file could be rsync'd/saved. Not a fresh re-read; treat as unverifiable against a live file."
+}

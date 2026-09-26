@@ -1,0 +1,12 @@
+{
+  "native_nll": 3.829991579055786,
+  "closed_loop_nll": 3.8521279096603394,
+  "G_CL": 0.022136330604553223,
+  "condition": "clhr",
+  "seed": 42,
+  "model_size": "31m",
+  "steps_completed": 50000,
+  "elapsed_s": 4735.195563554764,
+  "parameters": 19423816,
+  "lambda_rca": 1.0
+}

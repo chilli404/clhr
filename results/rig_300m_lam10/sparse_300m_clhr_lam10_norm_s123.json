@@ -1,0 +1,22 @@
+{
+  "condition": "contemporary_closedloop_hard",
+  "seed": 123,
+  "lambda_rca": 1.0,
+  "normalize_loss": true,
+  "model_params": 324803584,
+  "total_tokens": 3999989760,
+  "total_steps": 61035,
+  "native_nll": 2.91125,
+  "native_ppl": 18.38,
+  "closed_gate_nll": 2.963125,
+  "closed_gate_excess": 0.051875,
+  "closed_score_nll": 3.332891,
+  "closed_score_excess": 0.421641,
+  "openloop_gate_nll": 2.951172,
+  "openloop_gate_excess": 0.039922,
+  "openloop_score_nll": 3.279219,
+  "openloop_score_excess": 0.367969,
+  "swap_nll_mean": 7.610063,
+  "swap_nll_std": 0.008608,
+  "delta_swap": 4.698813
+}

@@ -1,0 +1,355 @@
+{
+  "description": "CLHR-Lite aggregate results: historical (coherent gate) and contemporary (current gate) variants",
+  "contemporary": {
+    "condition": "contemporary_closedloop_hard",
+    "gate_source": "model's own current gate (detached)",
+    "matches_headline": true,
+    "per_q": {
+      "0.25": {
+        "G_CL_mean": 0.00532,
+        "G_CL_std": 0.00048,
+        "native_nll_mean": 3.9963,
+        "hard_nll_mean": 4.0016,
+        "gate_utility_mean": 0.8685,
+        "timing_steps_per_second_mean": 9.15,
+        "n_seeds": 3
+      },
+      "0.5": {
+        "G_CL_mean": 0.00469,
+        "G_CL_std": 0.00069,
+        "native_nll_mean": 3.8996,
+        "hard_nll_mean": 3.9043,
+        "gate_utility_mean": 0.8158,
+        "timing_steps_per_second_mean": 7.98,
+        "n_seeds": 3
+      },
+      "0.75": {
+        "G_CL_mean": 0.00407,
+        "G_CL_std": 0.00043,
+        "native_nll_mean": 3.8577,
+        "hard_nll_mean": 3.8618,
+        "gate_utility_mean": 0.8715,
+        "timing_steps_per_second_mean": 6.89,
+        "n_seeds": 3
+      },
+      "1.0": {
+        "G_CL_mean": 0.00423,
+        "G_CL_std": 0.00074,
+        "native_nll_mean": 3.8332,
+        "hard_nll_mean": 3.8374,
+        "gate_utility_mean": 0.8644,
+        "timing_steps_per_second_mean": 5.81,
+        "n_seeds": 3
+      }
+    },
+    "per_run": [
+      {
+        "q": 0.25,
+        "seed": 42,
+        "G_CL": 0.00572,
+        "native_nll": 3.995322,
+        "hard_nll": 4.001042,
+        "gate_utility": 0.814999,
+        "timing_steps_per_second": 9.125,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.25,
+        "seed": 123,
+        "G_CL": 0.004638,
+        "native_nll": 3.999421,
+        "hard_nll": 4.004059,
+        "gate_utility": 0.917265,
+        "timing_steps_per_second": 9.117,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.25,
+        "seed": 456,
+        "G_CL": 0.005599,
+        "native_nll": 3.994074,
+        "hard_nll": 3.999673,
+        "gate_utility": 0.873314,
+        "timing_steps_per_second": 9.221,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.5,
+        "seed": 42,
+        "G_CL": 0.003718,
+        "native_nll": 3.893209,
+        "hard_nll": 3.896927,
+        "gate_utility": 0.793699,
+        "timing_steps_per_second": 8.079,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.5,
+        "seed": 123,
+        "G_CL": 0.005182,
+        "native_nll": 3.900057,
+        "hard_nll": 3.905239,
+        "gate_utility": 0.823032,
+        "timing_steps_per_second": 7.928,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.5,
+        "seed": 456,
+        "G_CL": 0.005174,
+        "native_nll": 3.905577,
+        "hard_nll": 3.910751,
+        "gate_utility": 0.830525,
+        "timing_steps_per_second": 7.939,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.75,
+        "seed": 42,
+        "G_CL": 0.004441,
+        "native_nll": 3.854563,
+        "hard_nll": 3.859004,
+        "gate_utility": 0.894224,
+        "timing_steps_per_second": 6.833,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.75,
+        "seed": 123,
+        "G_CL": 0.003475,
+        "native_nll": 3.858417,
+        "hard_nll": 3.861892,
+        "gate_utility": 0.851308,
+        "timing_steps_per_second": 6.918,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.75,
+        "seed": 456,
+        "G_CL": 0.004296,
+        "native_nll": 3.860134,
+        "hard_nll": 3.86443,
+        "gate_utility": 0.869082,
+        "timing_steps_per_second": 6.92,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 42,
+        "G_CL": 0.003235,
+        "native_nll": 3.827363,
+        "hard_nll": 3.830598,
+        "gate_utility": 0.842057,
+        "timing_steps_per_second": 5.841,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 123,
+        "G_CL": 0.004459,
+        "native_nll": 3.833436,
+        "hard_nll": 3.837895,
+        "gate_utility": 0.868421,
+        "timing_steps_per_second": 5.807,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 456,
+        "G_CL": 0.005006,
+        "native_nll": 3.838739,
+        "hard_nll": 3.843745,
+        "gate_utility": 0.882612,
+        "timing_steps_per_second": 5.795,
+        "hardware": "NVIDIA L40S"
+      }
+    ]
+  },
+  "historical": {
+    "condition": "coherent_closedloop_hard",
+    "gate_source": "historical gate snapshot (oldest-first)",
+    "matches_headline": false,
+    "per_q": {
+      "0.25": {
+        "G_CL_mean": 0.01243,
+        "G_CL_std": 0.00224,
+        "native_nll_mean": 4.0226,
+        "n_seeds": 3
+      },
+      "0.5": {
+        "G_CL_mean": 0.009,
+        "G_CL_std": 0.00087,
+        "native_nll_mean": 3.9256,
+        "n_seeds": 3
+      },
+      "0.75": {
+        "G_CL_mean": 0.00869,
+        "G_CL_std": 0.00069,
+        "native_nll_mean": 3.8846,
+        "n_seeds": 3
+      },
+      "1.0": {
+        "G_CL_mean": 0.00759,
+        "G_CL_std": 0.00052,
+        "native_nll_mean": 3.8592,
+        "n_seeds": 3
+      }
+    },
+    "per_run": [
+      {
+        "q": 0.25,
+        "seed": 42,
+        "G_CL": 0.011962,
+        "native_nll": 4.021851,
+        "hard_nll": 4.033813,
+        "gate_utility": 0.768344,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.25,
+        "seed": 123,
+        "G_CL": 0.015382,
+        "native_nll": 4.031853,
+        "hard_nll": 4.047235,
+        "gate_utility": 0.852676,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.25,
+        "seed": 456,
+        "G_CL": 0.00996,
+        "native_nll": 4.014081,
+        "hard_nll": 4.024041,
+        "gate_utility": 0.894263,
+        "hardware": "NVIDIA A10G"
+      },
+      {
+        "q": 0.5,
+        "seed": 42,
+        "G_CL": 0.009948,
+        "native_nll": 3.921805,
+        "hard_nll": 3.931753,
+        "gate_utility": 0.824278,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.5,
+        "seed": 123,
+        "G_CL": 0.009189,
+        "native_nll": 3.935806,
+        "hard_nll": 3.944995,
+        "gate_utility": 0.901833,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.5,
+        "seed": 456,
+        "G_CL": 0.007853,
+        "native_nll": 3.919296,
+        "hard_nll": 3.927149,
+        "gate_utility": 0.88285,
+        "hardware": "NVIDIA A10G"
+      },
+      {
+        "q": 0.75,
+        "seed": 42,
+        "G_CL": 0.008463,
+        "native_nll": 3.876657,
+        "hard_nll": 3.88512,
+        "gate_utility": 0.843997,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.75,
+        "seed": 123,
+        "G_CL": 0.007983,
+        "native_nll": 3.891685,
+        "hard_nll": 3.899668,
+        "gate_utility": 0.907769,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 0.75,
+        "seed": 456,
+        "G_CL": 0.009622,
+        "native_nll": 3.885576,
+        "hard_nll": 3.895198,
+        "gate_utility": 0.897555,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 42,
+        "G_CL": 0.007401,
+        "native_nll": 3.85373,
+        "hard_nll": 3.861131,
+        "gate_utility": 0.86796,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 123,
+        "G_CL": 0.007064,
+        "native_nll": 3.864809,
+        "hard_nll": 3.871873,
+        "gate_utility": 0.904858,
+        "hardware": "NVIDIA L40S"
+      },
+      {
+        "q": 1.0,
+        "seed": 456,
+        "G_CL": 0.008307,
+        "native_nll": 3.858969,
+        "hard_nll": 3.867276,
+        "gate_utility": 0.897158,
+        "hardware": "NVIDIA L40S"
+      }
+    ]
+  },
+  "synchronized_benchmark": {
+    "source": "results/benchmarks/benchmark_clhr_lite.json",
+    "hardware": "NVIDIA L40S",
+    "note": "Includes standard and SSA-style for comparison",
+    "methods": {
+      "standard": {
+        "steps_per_second": 11.43,
+        "cost_vs_standard": 1.0,
+        "memory_gb": 9.19
+      },
+      "ssa_style": {
+        "steps_per_second": 8.55,
+        "cost_vs_standard": 1.34,
+        "memory_gb": 10.27
+      },
+      "clhr_q025": {
+        "steps_per_second": 9.36,
+        "cost_vs_standard": 1.22,
+        "memory_gb": 9.71
+      },
+      "clhr_q050": {
+        "steps_per_second": 8.07,
+        "cost_vs_standard": 1.42,
+        "memory_gb": 10.14
+      },
+      "clhr_q075": {
+        "steps_per_second": 6.89,
+        "cost_vs_standard": 1.66,
+        "memory_gb": 12.11
+      },
+      "clhr_q100": {
+        "steps_per_second": 5.8,
+        "cost_vs_standard": 1.97,
+        "memory_gb": 14.09
+      }
+    }
+  },
+  "headline_contemporary_clhr": {
+    "source": "results/paper_lam10/ssa_vs_clhr_full_comparison.json",
+    "condition": "contemporary_closedloop_hard",
+    "lambda": 1.0,
+    "G_CL_mean": 0.00346,
+    "native_nll_mean": 3.832,
+    "hard_nll_mean": 3.836,
+    "note": "The q=1.0 contemporary Lite result (G_CL=0.0042) closely reconstructs this"
+  }
+}

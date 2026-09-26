@@ -1,0 +1,13 @@
+{
+  "condition": "learned_gate",
+  "seed": 123,
+  "model_params": 18123008,
+  "steps": 50000,
+  "learned_nll": 3.994553,
+  "learned_ppl": 54.3,
+  "random_nll": 6.360089,
+  "random_ppl": 578.3,
+  "delta_router": 2.365537,
+  "lambda_rca": 0.0,
+  "target_sparsity": 0.875
+}

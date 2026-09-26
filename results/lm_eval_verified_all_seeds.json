@@ -1,0 +1,146 @@
+{
+  "standard_s42": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 32.952832181774994,
+        "byte_perplexity": 1.9217977685420504,
+        "bits_per_byte": 0.9424565287901895
+      },
+      "lambada_openai": {
+        "perplexity": 2402.0229541126914,
+        "acc": 0.12458761886279837
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 116.71655364284732,
+        "byte_perplexity": 2.434251701498503,
+        "bits_per_byte": 1.283478350356199
+      },
+      "lambada_openai": {
+        "perplexity": 16077.18601381917,
+        "acc": 0.04230545313409664
+      }
+    }
+  },
+  "standard_s123": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 33.22261106255623,
+        "byte_perplexity": 1.9247287438234173,
+        "bits_per_byte": 0.944655138007195
+      },
+      "lambada_openai": {
+        "perplexity": 2405.819407966241,
+        "acc": 0.14224723462060934
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 64.67243553757808,
+        "byte_perplexity": 2.17991501244944,
+        "bits_per_byte": 1.1242718902738544
+      },
+      "lambada_openai": {
+        "perplexity": 15578.17720369661,
+        "acc": 0.03784203376673782
+      }
+    }
+  },
+  "standard_s456": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 33.072175563940455,
+        "byte_perplexity": 1.9230967554725849,
+        "bits_per_byte": 0.9434313498483268
+      },
+      "lambada_openai": {
+        "perplexity": 2171.9878265265593,
+        "acc": 0.12905103823015718
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 70.26000418153643,
+        "byte_perplexity": 2.213941895385851,
+        "bits_per_byte": 1.146617359274527
+      },
+      "lambada_openai": {
+        "perplexity": 13853.20145650316,
+        "acc": 0.03202018241800893
+      }
+    }
+  },
+  "clhr_s42": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 32.93456941069148,
+        "byte_perplexity": 1.9215986510099867,
+        "bits_per_byte": 0.9423070433637797
+      },
+      "lambada_openai": {
+        "perplexity": 2063.2493401259662,
+        "acc": 0.14360566660197943
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 34.716571216128635,
+        "byte_perplexity": 1.94061804310699,
+        "bits_per_byte": 0.9565161914462086
+      },
+      "lambada_openai": {
+        "perplexity": 2402.6563835352295,
+        "acc": 0.12905103823015718
+      }
+    }
+  },
+  "clhr_s123": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 32.97611486259969,
+        "byte_perplexity": 1.9220514876781694,
+        "bits_per_byte": 0.9426469833661055
+      },
+      "lambada_openai": {
+        "perplexity": 1954.9254511742276,
+        "acc": 0.1342907044440132
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 34.87905579949609,
+        "byte_perplexity": 1.9423124612869789,
+        "bits_per_byte": 0.9577753068786695
+      },
+      "lambada_openai": {
+        "perplexity": 2162.8498797032116,
+        "acc": 0.12943916165340577
+      }
+    }
+  },
+  "clhr_s456": {
+    "soft": {
+      "wikitext": {
+        "word_perplexity": 32.9900211448772,
+        "byte_perplexity": 1.9222029596016936,
+        "bits_per_byte": 0.9427606739638598
+      },
+      "lambada_openai": {
+        "perplexity": 1928.5326397853426,
+        "acc": 0.1391422472346206
+      }
+    },
+    "hard": {
+      "wikitext": {
+        "word_perplexity": 34.765557214109556,
+        "byte_perplexity": 1.941129555573917,
+        "bits_per_byte": 0.9568964101414739
+      },
+      "lambada_openai": {
+        "perplexity": 2159.3093166024382,
+        "acc": 0.12866291480690858
+      }
+    }
+  }
+}

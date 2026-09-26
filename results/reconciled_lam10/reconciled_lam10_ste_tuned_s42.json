@@ -1,0 +1,15 @@
+{
+  "method": "ste",
+  "config": {
+    "lr": 0.001
+  },
+  "tag": "tuning_ste_lr0.001",
+  "native_nll": 4.223237,
+  "native_ppl": 68.25,
+  "cl_nll": 4.917352,
+  "cl_ppl": 136.64,
+  "g_cl": 0.694115,
+  "seed": 42,
+  "reconciled_provenance": "seed 42 is ste_tuning.py's own dev/tuning seed (lr=1e-3 winner); seeds 123/456 are ste_heldout.py --method ste runs at that same winning lr, G_CL computed by sparse_attention_cl_eval_single.py. Do NOT use results/s3/sparse_rca_ste_hard_s42.json -- that is a stale pre-tuning run at a different (wrong) learning rate.",
+  "reconciled_source": "results/s3/ste_tuning.json[best_ste]"
+}

@@ -1,0 +1,59 @@
+{
+  "checkpoint": "/s3-data/ckpts_sparse_exact/sparse_exact_contemporary_closedloop_hard_s42/step_50000.pt",
+  "k": 64,
+  "max_batches": 200,
+  "batch_size": 16,
+  "skip_slow": false,
+  "frozen_key_layer": 0,
+  "modes": {
+    "native_soft": {
+      "nll": 3.849133,
+      "ppl": 46.95
+    },
+    "open_loop_gate_hard": {
+      "nll": 3.863424,
+      "ppl": 47.63
+    },
+    "closed_loop_gate_hard": {
+      "nll": 3.863446,
+      "ppl": 47.63
+    },
+    "closed_loop_gate_hard_frozen_keys": {
+      "nll": 4.607859,
+      "ppl": 100.27
+    },
+    "open_loop_score_hard": {
+      "nll": 4.263426,
+      "ppl": 71.05
+    },
+    "closed_loop_score_hard": {
+      "nll": 4.360242,
+      "ppl": 78.28
+    },
+    "random_hard": {
+      "nll": 4.745132,
+      "ppl": 115.02,
+      "std": 0.001578
+    },
+    "local_window_64": {
+      "nll": 5.0269,
+      "ppl": 152.46
+    }
+  },
+  "derived": {
+    "G_CL": 0.014313,
+    "G_OL": 0.014291,
+    "absorption_ratio": 1.0,
+    "gate_utility": 0.881686,
+    "score_utility": 0.38489,
+    "gate_vs_score": -0.496796,
+    "G_CL_frozen_keys": 0.758726,
+    "coupling_attribution": -52.009572
+  },
+  "checks": {
+    "hardening_hurts_openloop": true,
+    "gate_utility_positive": true,
+    "random_worse_than_gate": true,
+    "warnings": []
+  }
+}

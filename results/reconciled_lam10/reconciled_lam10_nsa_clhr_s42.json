@@ -1,0 +1,13 @@
+{
+  "native_nll": 3.8319022178649904,
+  "closed_loop_nll": 3.854309391975403,
+  "G_CL": 0.022407174110412598,
+  "condition": "clhr",
+  "seed": 42,
+  "model_size": "31m",
+  "steps_completed": 50000,
+  "elapsed_s": 4765.270404815674,
+  "parameters": 19423816,
+  "lambda_rca": 1.0,
+  "_provenance": "RECONSTRUCTED from conversation transcript (verbatim cat output read earlier this session) -- source instance terminated before this file could be rsync'd/saved. Not a fresh re-read; treat as unverifiable against a live file."
+}

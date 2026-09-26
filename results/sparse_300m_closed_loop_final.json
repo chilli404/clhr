@@ -1,0 +1,61 @@
+{
+  "standard_s42": {
+    "native_nll": 2.925594,
+    "open_loop_nll": 3.586207,
+    "closed_loop_nll": 4.056868,
+    "open_loop_excess": 0.660613,
+    "closed_loop_excess": 1.131274,
+    "step": 61035,
+    "tokens_seen": 3999989760
+  },
+  "standard_s123": {
+    "native_nll": 2.9283,
+    "open_loop_nll": 3.202931,
+    "closed_loop_nll": 3.516521,
+    "open_loop_excess": 0.274631,
+    "closed_loop_excess": 0.588221,
+    "step": 61035,
+    "tokens_seen": 3999989760
+  },
+  "standard_s456": {
+    "native_nll": 2.928438,
+    "open_loop_nll": 3.229287,
+    "closed_loop_nll": 3.59571,
+    "open_loop_excess": 0.300849,
+    "closed_loop_excess": 0.667272,
+    "step": 61035,
+    "tokens_seen": 3999989760
+  },
+  "coherent_closedloop_hard_s42": {
+    "native_nll": 2.924813,
+    "open_loop_nll": 2.965297,
+    "closed_loop_nll": 2.969833,
+    "open_loop_excess": 0.040485,
+    "closed_loop_excess": 0.04502,
+    "step": 69754,
+    "tokens_seen": 3999973376
+  },
+  "coherent_closedloop_hard_s123": {
+    "native_nll": 2.929447,
+    "open_loop_nll": 2.969761,
+    "closed_loop_nll": 2.975486,
+    "open_loop_excess": 0.040314,
+    "closed_loop_excess": 0.046039,
+    "step": 69754,
+    "tokens_seen": 3999973376
+  },
+  "coherent_closedloop_hard_s456": {
+    "native_nll": 2.925749,
+    "open_loop_nll": 2.967887,
+    "closed_loop_nll": 2.970093,
+    "open_loop_excess": 0.042138,
+    "closed_loop_excess": 0.044345,
+    "step": 69754,
+    "tokens_seen": 3999973376
+  },
+  "dense_s42": {
+    "native_nll": 2.91966,
+    "step": 61035,
+    "tokens_seen": 3999989760
+  }
+}

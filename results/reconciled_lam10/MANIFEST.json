@@ -1,0 +1,109 @@
+{
+  "description": "Reconciled lambda=1.0, corrected-masking, 3-seed (42/123/456) comparison bundle across exact-protocol CLHR, SSA-style, tuned-STE, and post-hoc-KL. See RUN_LEDGER.md Section 2(k) for the original unreconciled discrepancy this closes.",
+  "clhr": {
+    "mechanism": "clhr_contemporary_closedloop_hard",
+    "per_seed": {
+      "42": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ladder_lam10_eval/ladder_lam10_contemporary_closedloop_hard_s42.json",
+        "native_nll": 3.831786,
+        "hard_nll": 3.835533,
+        "g_cl": 0.0037469999999997228
+      },
+      "123": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ladder_lam10_eval/ladder_lam10_contemporary_closedloop_hard_s123.json",
+        "native_nll": 3.830813,
+        "hard_nll": 3.834854,
+        "g_cl": 0.004040999999999961
+      },
+      "456": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ladder_lam10_eval/ladder_lam10_contemporary_closedloop_hard_s456.json",
+        "native_nll": 3.834922,
+        "hard_nll": 3.839646,
+        "g_cl": 0.0047239999999999505
+      }
+    },
+    "g_cl_mean": 0.004170666666666545,
+    "g_cl_sd": 0.000501240793764263
+  },
+  "ssa_style": {
+    "mechanism": "ssa_style",
+    "per_seed": {
+      "42": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ssa_style/ssa_style_aw1_s42.json",
+        "native_nll": 3.8697722115691557,
+        "hard_nll": 3.8727215966863087,
+        "g_cl": 0.002949385117152925,
+        "note": "SSA-style has no lambda_rca mixing; this is its natural-default config (alignment_weight=1.0, hard_probability=0.5, objective_clhr_weight unset), selected via the existing tune-then-heldout scripts (scripts/run_ssa_dev_queue.sh + scripts/run_ssa_heldout_queue.sh)."
+      },
+      "123": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ssa_style/ssa_style_aw1_s123.json",
+        "native_nll": 3.8826748545738563,
+        "hard_nll": 3.88620496453858,
+        "g_cl": 0.0035301099647235823,
+        "note": "SSA-style has no lambda_rca mixing; this is its natural-default config (alignment_weight=1.0, hard_probability=0.5, objective_clhr_weight unset), selected via the existing tune-then-heldout scripts (scripts/run_ssa_dev_queue.sh + scripts/run_ssa_heldout_queue.sh)."
+      },
+      "456": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/ssa_style/ssa_style_aw1_s456.json",
+        "native_nll": 3.8717450778001954,
+        "hard_nll": 3.8751806764726333,
+        "g_cl": 0.003435598672437923,
+        "note": "SSA-style has no lambda_rca mixing; this is its natural-default config (alignment_weight=1.0, hard_probability=0.5, objective_clhr_weight unset), selected via the existing tune-then-heldout scripts (scripts/run_ssa_dev_queue.sh + scripts/run_ssa_heldout_queue.sh)."
+      }
+    },
+    "g_cl_mean": 0.0033050312514381433,
+    "g_cl_sd": 0.00031160267283255287
+  },
+  "tuned_ste": {
+    "mechanism": "tuned_ste",
+    "per_seed": {
+      "42": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/s3/ste_tuning.json[best_ste]",
+        "native_nll": 4.223237,
+        "cl_nll": 4.917352,
+        "g_cl": 0.694115,
+        "note": "seed 42 is ste_tuning.py's own dev/tuning seed (lr=1e-3 winner); seeds 123/456 are ste_heldout.py --method ste runs at that same winning lr, G_CL computed by sparse_attention_cl_eval_single.py. Do NOT use results/s3/sparse_rca_ste_hard_s42.json -- that is a stale pre-tuning run at a different (wrong) learning rate."
+      },
+      "123": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/s3/cl_eval_ste_hard_s123.json",
+        "native_nll": 4.220344,
+        "cl_nll": 5.21521,
+        "g_cl": 0.994866,
+        "note": "seed 42 is ste_tuning.py's own dev/tuning seed (lr=1e-3 winner); seeds 123/456 are ste_heldout.py --method ste runs at that same winning lr, G_CL computed by sparse_attention_cl_eval_single.py. Do NOT use results/s3/sparse_rca_ste_hard_s42.json -- that is a stale pre-tuning run at a different (wrong) learning rate."
+      },
+      "456": {
+        "status": "reused_existing_no_new_run_needed",
+        "source": "results/s3/cl_eval_ste_hard_s456.json",
+        "native_nll": 4.212975,
+        "cl_nll": 4.881518,
+        "g_cl": 0.668542,
+        "note": "seed 42 is ste_tuning.py's own dev/tuning seed (lr=1e-3 winner); seeds 123/456 are ste_heldout.py --method ste runs at that same winning lr, G_CL computed by sparse_attention_cl_eval_single.py. Do NOT use results/s3/sparse_rca_ste_hard_s42.json -- that is a stale pre-tuning run at a different (wrong) learning rate."
+      }
+    },
+    "g_cl_mean": 0.785841,
+    "g_cl_sd": 0.18147198833704337
+  },
+  "dense": {
+    "mechanism": "dense",
+    "status": "PENDING_NEW_RUN",
+    "note": "Launch DENSE_TRAIN_S{42,123,456} then DENSE_EVAL via vastai/launch_reconciled_lam10.sh, then pull with vastai/sync_reconciled_lam10_results.sh."
+  },
+  "post_hoc_kl": {
+    "mechanism": "post_hoc_kl",
+    "posthoc_kl": {
+      "status": "PENDING_NEW_RUN",
+      "note": "Launch POSTHOC_PREREQ_* (9 jobs) then POSTHOC_KL via vastai/launch_reconciled_lam10.sh."
+    },
+    "posthoc_kl_maskagnostic": {
+      "status": "PENDING_NEW_RUN",
+      "note": "Launch POSTHOC_PREREQ_* (9 jobs) then POSTHOC_KL_MASKAGNOSTIC via vastai/launch_reconciled_lam10.sh."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "native_nll": 3.8192874431610107,
+  "native_ppl": 45.571724305051276,
+  "open_loop_nll": 3.8192874431610107,
+  "closed_loop_nll": 3.8192874431610107,
+  "dense_mode_nll": 3.7820653200149534,
+  "G_CL": 0.0,
+  "G_OL": 0.0,
+  "G_CL_vs_dense": 0.03722212314605722,
+  "random_hard_nll_mean": 3.922498369216919,
+  "random_hard_nll_std": 0.0009349446729062656,
+  "gate_utility": 0.026312547856205497,
+  "condition": "clhr",
+  "seed": 456,
+  "total_steps": 50000,
+  "model_params": 17598720,
+  "lambda_rca": 1.0,
+  "elapsed_sec": 3132.689444541931,
+  "block_size": 64,
+  "top_k_blocks": 2
+}

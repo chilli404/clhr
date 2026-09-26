@@ -1,0 +1,32 @@
+{
+  "native_soft_nll": 3.4735535780588784,
+  "open_loop_top1_nll": 3.487989099820455,
+  "closed_loop_top1_nll": 3.488843735059102,
+  "shuffled_top1_nll": 6.865721940994263,
+  "random_top1_nll": 6.887215290069579,
+  "random_top1_std": 0.002842840427614273,
+  "G_CL": 0.015290157000223736,
+  "G_OL": 0.014435521761576364,
+  "compounding_ratio": 1.0592036264960087,
+  "gate_utility": 3.398371555010477,
+  "G_CL_shuffled": 3.3921683629353843,
+  "one_minus_cos_L": 0.005055316289265921,
+  "expert_load_histogram": [
+    362881,
+    356394,
+    378227,
+    377058
+  ],
+  "condition": "clhr",
+  "seed": 123,
+  "n_experts": 4,
+  "n_layers": 6,
+  "d_model": 512,
+  "d_ff": 1024,
+  "lambda_rca": 1.0,
+  "aux_coeff": 0.01,
+  "steps_completed": 20000,
+  "training_elapsed_seconds": 5535.410943031311,
+  "hardware": "Linux-x86_64-cuda",
+  "model_params": 57476608
+}

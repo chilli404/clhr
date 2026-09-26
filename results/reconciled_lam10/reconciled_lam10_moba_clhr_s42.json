@@ -1,0 +1,22 @@
+{
+  "native_nll": 3.8701090455055236,
+  "native_ppl": 47.9476142675954,
+  "open_loop_nll": 3.8701090455055236,
+  "closed_loop_nll": 3.8701090455055236,
+  "dense_mode_nll": 3.8073834657669066,
+  "G_CL": 0.0,
+  "G_OL": 0.0,
+  "G_CL_vs_dense": 0.06272557973861703,
+  "random_hard_nll_mean": 3.96496680577596,
+  "random_hard_nll_std": 0.00036679962951361047,
+  "gate_utility": 0.02392397336902106,
+  "condition": "clhr",
+  "seed": 42,
+  "total_steps": 50000,
+  "model_params": 17598720,
+  "lambda_rca": 1.0,
+  "elapsed_sec": 3540.085245847702,
+  "block_size": 64,
+  "top_k_blocks": 2,
+  "_provenance": "RECONSTRUCTED from conversation transcript (verbatim cat output read earlier this session) -- this is the CORRECTED v2 result (after the dense_mode_nll/G_CL_vs_dense eval bug fix). Source instance terminated before this file could be rsync'd/saved. Not a fresh re-read; treat as unverifiable against a live file."
+}

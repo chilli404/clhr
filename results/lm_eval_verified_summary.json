@@ -1,0 +1,78 @@
+{
+  "_provenance": "Computed directly against sparse_300m checkpoints, bypassing lm_eval.simple_evaluate() due to a confirmed reproducible bug in its internal aggregation for this model/task combo (verified: raw per-doc loglikelihoods and internal training-time validation NLL are consistent across seeds; simple_evaluate() output was not). Formulas match the official lm-eval-harness wikitext/lambada_openai task definitions exactly (word_perplexity, byte_perplexity omitted here, lambada perplexity+acc).",
+  "source_raw_file": "results/lm_eval_verified_all_seeds.json",
+  "results": {
+    "standard_s42": {
+      "condition": "standard",
+      "seed": 42,
+      "wikitext_word_ppl_soft": 32.952832181774994,
+      "wikitext_word_ppl_hard": 116.71655364284732,
+      "wikitext_soft_to_hard_ratio": 3.541927837917342,
+      "lambada_ppl_soft": 2402.0229541126914,
+      "lambada_ppl_hard": 16077.18601381917,
+      "lambada_soft_to_hard_ratio": 6.693185835835649,
+      "lambada_acc_soft": 0.12458761886279837,
+      "lambada_acc_hard": 0.04230545313409664
+    },
+    "standard_s123": {
+      "condition": "standard",
+      "seed": 123,
+      "wikitext_word_ppl_soft": 33.22261106255623,
+      "wikitext_word_ppl_hard": 64.67243553757808,
+      "wikitext_soft_to_hard_ratio": 1.9466391553572857,
+      "lambada_ppl_soft": 2405.819407966241,
+      "lambada_ppl_hard": 15578.17720369661,
+      "lambada_soft_to_hard_ratio": 6.475206390019781,
+      "lambada_acc_soft": 0.14224723462060934,
+      "lambada_acc_hard": 0.03784203376673782
+    },
+    "standard_s456": {
+      "condition": "standard",
+      "seed": 456,
+      "wikitext_word_ppl_soft": 33.072175563940455,
+      "wikitext_word_ppl_hard": 70.26000418153643,
+      "wikitext_soft_to_hard_ratio": 2.1244445816906867,
+      "lambada_ppl_soft": 2171.9878265265593,
+      "lambada_ppl_hard": 13853.20145650316,
+      "lambada_soft_to_hard_ratio": 6.378121132776875,
+      "lambada_acc_soft": 0.12905103823015718,
+      "lambada_acc_hard": 0.03202018241800893
+    },
+    "clhr_s42": {
+      "condition": "clhr",
+      "seed": 42,
+      "wikitext_word_ppl_soft": 32.93456941069148,
+      "wikitext_word_ppl_hard": 34.716571216128635,
+      "wikitext_soft_to_hard_ratio": 1.0541073357667359,
+      "lambada_ppl_soft": 2063.2493401259662,
+      "lambada_ppl_hard": 2402.6563835352295,
+      "lambada_soft_to_hard_ratio": 1.1645012247470496,
+      "lambada_acc_soft": 0.14360566660197943,
+      "lambada_acc_hard": 0.12905103823015718
+    },
+    "clhr_s123": {
+      "condition": "clhr",
+      "seed": 123,
+      "wikitext_word_ppl_soft": 32.97611486259969,
+      "wikitext_word_ppl_hard": 34.87905579949609,
+      "wikitext_soft_to_hard_ratio": 1.057706644485723,
+      "lambada_ppl_soft": 1954.9254511742276,
+      "lambada_ppl_hard": 2162.8498797032116,
+      "lambada_soft_to_hard_ratio": 1.1063592621417324,
+      "lambada_acc_soft": 0.1342907044440132,
+      "lambada_acc_hard": 0.12943916165340577
+    },
+    "clhr_s456": {
+      "condition": "clhr",
+      "seed": 456,
+      "wikitext_word_ppl_soft": 32.9900211448772,
+      "wikitext_word_ppl_hard": 34.765557214109556,
+      "wikitext_soft_to_hard_ratio": 1.0538203980359702,
+      "lambada_ppl_soft": 1928.5326397853426,
+      "lambada_ppl_hard": 2159.3093166024382,
+      "lambada_soft_to_hard_ratio": 1.119664387346217,
+      "lambada_acc_soft": 0.1391422472346206,
+      "lambada_acc_hard": 0.12866291480690858
+    }
+  }
+}

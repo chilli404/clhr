@@ -1,0 +1,21 @@
+{
+  "method": "corpus_transfer",
+  "condition": "native_hard",
+  "corpus": "fineweb-edu",
+  "model_size": "300m",
+  "seed": 42,
+  "lambda_rca": 1.0,
+  "total_tokens": 999948288,
+  "total_steps": 15258,
+  "model_params": 324803584,
+  "native_nll": 4.333437,
+  "native_ppl": 76.21,
+  "closed_loop_hard_nll": 4.332187,
+  "G_CL": -0.00125,
+  "gate_utility": 1.200375,
+  "random_hard_nll_mean": 5.532563,
+  "random_hard_nll_std": 0.004169,
+  "training_elapsed_seconds": 8757.5,
+  "training_gpu_hours": 9.73,
+  "_provenance": "RECONSTRUCTED from conversation transcript (verbatim cat output read earlier this session) -- source instance terminated before this file could be rsync'd/saved. Not a fresh re-read; treat as unverifiable against a live file."
+}

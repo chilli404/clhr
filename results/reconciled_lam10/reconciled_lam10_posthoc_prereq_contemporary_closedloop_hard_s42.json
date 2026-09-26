@@ -1,0 +1,14 @@
+{
+  "condition": "contemporary_closedloop_hard",
+  "seed": 42,
+  "model_params": 18123008,
+  "steps": 50000,
+  "learned_nll": 3.948695,
+  "learned_ppl": 51.87,
+  "random_nll": 5.183805,
+  "random_ppl": 178.36,
+  "delta_router": 1.23511,
+  "lambda_rca": 1.0,
+  "target_sparsity": 0.875,
+  "_provenance": "RECONSTRUCTED from conversation transcript (verbatim cat output read earlier this session) -- source instance terminated before this file could be rsync'd/saved. Not a fresh re-read; treat as unverifiable against a live file."
+}

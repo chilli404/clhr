@@ -1,0 +1,62 @@
+{
+  "checkpoint": "/s3-data/ckpts_causal_ladder_lam10/sparse_exact_shuffled_historical_s123/step_50000.pt",
+  "k": 64,
+  "max_batches": 200,
+  "batch_size": 16,
+  "skip_slow": false,
+  "frozen_key_layer": 0,
+  "modes": {
+    "native_soft": {
+      "nll": 3.929958,
+      "ppl": 50.9
+    },
+    "open_loop_gate_hard": {
+      "nll": 7.02785,
+      "ppl": 1127.6
+    },
+    "closed_loop_gate_hard": {
+      "nll": 7.04486,
+      "ppl": 1146.95
+    },
+    "closed_loop_gate_hard_frozen_keys": {
+      "nll": 6.886275,
+      "ppl": 978.75
+    },
+    "open_loop_score_hard": {
+      "nll": 6.744995,
+      "ppl": 849.79
+    },
+    "closed_loop_score_hard": {
+      "nll": 6.934831,
+      "ppl": 1027.45
+    },
+    "random_hard": {
+      "nll": 6.981391,
+      "ppl": 1076.41,
+      "std": 0.002695
+    },
+    "local_window_64": {
+      "nll": 6.459209,
+      "ppl": 638.56
+    }
+  },
+  "derived": {
+    "G_CL": 3.114902,
+    "G_OL": 3.097892,
+    "absorption_ratio": 1.01,
+    "gate_utility": -0.063469,
+    "score_utility": 0.04656,
+    "gate_vs_score": 0.110029,
+    "G_CL_frozen_keys": 2.956317,
+    "coupling_attribution": 0.050912
+  },
+  "checks": {
+    "hardening_hurts_openloop": true,
+    "gate_utility_positive": false,
+    "random_worse_than_gate": false,
+    "warnings": [
+      "WARNING: Router is worse than random by 0.0635 nats",
+      "Random routing beats closed-loop gate by 0.0635 nats -- pathological"
+    ]
+  }
+}
