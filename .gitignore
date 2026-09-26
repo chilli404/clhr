@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.DS_Store
+.skyignore
+STATUS.md
+
+# not needed for anonymous code submission / leaks internal infra or PII
+sky/
+papers/
+notebooks/
+data/
+fineweb_data/
+logs/
+predictions/
+results/
+/models/
+ckpts_eval/
+wikitext103_cache/
+wikitext103_cache_slim/
+wikitext103_upstream/
+vastai/
+.pytest_cache/
+uv.lock
